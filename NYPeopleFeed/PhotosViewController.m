@@ -8,8 +8,9 @@
 
 #import "PhotosViewController.h"
 
-@interface PhotosViewController ()
+@interface PhotosViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) NSArray *posts;
+@property (weak, nonatomic) IBOutlet UITableView *photosTableView;
 @end
 
 @implementation PhotosViewController
@@ -34,10 +35,9 @@
                
 
                if ([dataDictionary[@"meta"][@"status"]  isEqual: @(200)]){
-                   NSLog(@"%@", dataDictionary[@"response"][@"blog"]);
+                   self.posts = dataDictionary[@"response"][@"posts"];
                } else {
                    NSLog(@"%@", dataDictionary[@"status"]);
-                   NSLog(@"supsup");
                }
            }
         
@@ -50,7 +50,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // Congiruginr photosTableView dataSource and delegate to self
+    self.photosTableView.dataSource = self;
+    self.photosTableView.delegate = self;
+    
     [self fetchPhotos];
+}
+
+- (NSInteger)tableView:(UITableView *)photosTableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)photosTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    cell.textLabel.text = [NSString stringWithFormat:@"This is row %ld", (long)indexPath.row];
+    
+    return cell;
 }
 
 /*
