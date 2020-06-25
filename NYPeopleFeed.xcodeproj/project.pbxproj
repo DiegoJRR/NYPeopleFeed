@@ -16,6 +16,9 @@
 		2FFF4A9324A5000200AB35A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A9224A5000200AB35A2 /* main.m */; };
 		2FFF4A9D24A5000200AB35A2 /* NYPeopleFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A9C24A5000200AB35A2 /* NYPeopleFeedTests.m */; };
 		2FFF4AA824A5000200AB35A2 /* NYPeopleFeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4AA724A5000200AB35A2 /* NYPeopleFeedUITests.m */; };
+		5CE8D1BF1870940E621E3427 /* Pods_NYPeopleFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5F47AB75D5123BE2B641C5 /* Pods_NYPeopleFeed.framework */; };
+		A52EA09C1F68E3C370A1B42B /* Pods_NYPeopleFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0B6AB91C3F66E900189E6D /* Pods_NYPeopleFeedTests.framework */; };
+		EA26634F415D02995AD41AC7 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A36522B7F10C37D529046 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0847BD8C07EB60F2863FEEEF /* Pods-NYPeopleFeed-NYPeopleFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeed-NYPeopleFeedUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeed-NYPeopleFeedUITests/Pods-NYPeopleFeed-NYPeopleFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FFF4A7D24A5000000AB35A2 /* NYPeopleFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYPeopleFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFF4A8024A5000100AB35A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FFF4A8124A5000100AB35A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		2FFF4AA324A5000200AB35A2 /* NYPeopleFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYPeopleFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFF4AA724A5000200AB35A2 /* NYPeopleFeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPeopleFeedUITests.m; sourceTree = "<group>"; };
 		2FFF4AA924A5000200AB35A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D603702BFB5A3A772402F0 /* Pods-NYPeopleFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeed.debug.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1A36522B7F10C37D529046 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYPeopleFeed_NYPeopleFeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D43687A1A71BDF97B264D3A /* Pods-NYPeopleFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeedTests.release.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeedTests/Pods-NYPeopleFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C5F47AB75D5123BE2B641C5 /* Pods_NYPeopleFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYPeopleFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7D93598B4D47B7B699AECD /* Pods-NYPeopleFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeedTests.debug.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeedTests/Pods-NYPeopleFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D52CF4533823D0A27D3C6DC5 /* Pods-NYPeopleFeed-NYPeopleFeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeed-NYPeopleFeedUITests.release.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeed-NYPeopleFeedUITests/Pods-NYPeopleFeed-NYPeopleFeedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA0B6AB91C3F66E900189E6D /* Pods_NYPeopleFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYPeopleFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A72ED39FC3D0D486D14194 /* Pods-NYPeopleFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeed.release.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE8D1BF1870940E621E3427 /* Pods_NYPeopleFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52EA09C1F68E3C370A1B42B /* Pods_NYPeopleFeedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA26634F415D02995AD41AC7 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9A52503FECD85684881DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5F47AB75D5123BE2B641C5 /* Pods_NYPeopleFeed.framework */,
+				3B1A36522B7F10C37D529046 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework */,
+				DA0B6AB91C3F66E900189E6D /* Pods_NYPeopleFeedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FFF4A7424A5000000AB35A2 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				2FFF4A9B24A5000200AB35A2 /* NYPeopleFeedTests */,
 				2FFF4AA624A5000200AB35A2 /* NYPeopleFeedUITests */,
 				2FFF4A7E24A5000000AB35A2 /* Products */,
+				93298FB771E43100688D7D8C /* Pods */,
+				1F9A52503FECD85684881DCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +164,20 @@
 			path = NYPeopleFeedUITests;
 			sourceTree = "<group>";
 		};
+		93298FB771E43100688D7D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D603702BFB5A3A772402F0 /* Pods-NYPeopleFeed.debug.xcconfig */,
+				E4A72ED39FC3D0D486D14194 /* Pods-NYPeopleFeed.release.xcconfig */,
+				0847BD8C07EB60F2863FEEEF /* Pods-NYPeopleFeed-NYPeopleFeedUITests.debug.xcconfig */,
+				D52CF4533823D0A27D3C6DC5 /* Pods-NYPeopleFeed-NYPeopleFeedUITests.release.xcconfig */,
+				9A7D93598B4D47B7B699AECD /* Pods-NYPeopleFeedTests.debug.xcconfig */,
+				6D43687A1A71BDF97B264D3A /* Pods-NYPeopleFeedTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FFF4AAC24A5000200AB35A2 /* Build configuration list for PBXNativeTarget "NYPeopleFeed" */;
 			buildPhases = (
+				820277B863AEEB286DE82E59 /* [CP] Check Pods Manifest.lock */,
 				2FFF4A7924A5000000AB35A2 /* Sources */,
 				2FFF4A7A24A5000000AB35A2 /* Frameworks */,
 				2FFF4A7B24A5000000AB35A2 /* Resources */,
+				66359D46617224435502D25F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FFF4AAF24A5000200AB35A2 /* Build configuration list for PBXNativeTarget "NYPeopleFeedTests" */;
 			buildPhases = (
+				F43AE7C049432E80A76972AC /* [CP] Check Pods Manifest.lock */,
 				2FFF4A9424A5000200AB35A2 /* Sources */,
 				2FFF4A9524A5000200AB35A2 /* Frameworks */,
 				2FFF4A9624A5000200AB35A2 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FFF4AB224A5000200AB35A2 /* Build configuration list for PBXNativeTarget "NYPeopleFeedUITests" */;
 			buildPhases = (
+				1F4C2730282B6786DFC706DB /* [CP] Check Pods Manifest.lock */,
 				2FFF4A9F24A5000200AB35A2 /* Sources */,
 				2FFF4AA024A5000200AB35A2 /* Frameworks */,
 				2FFF4AA124A5000200AB35A2 /* Resources */,
+				B7B39EB83901A8588A110716 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4C2730282B6786DFC706DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYPeopleFeed-NYPeopleFeedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66359D46617224435502D25F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820277B863AEEB286DE82E59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYPeopleFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B39EB83901A8588A110716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed-NYPeopleFeedUITests/Pods-NYPeopleFeed-NYPeopleFeedUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed-NYPeopleFeedUITests/Pods-NYPeopleFeed-NYPeopleFeedUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYPeopleFeed-NYPeopleFeedUITests/Pods-NYPeopleFeed-NYPeopleFeedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43AE7C049432E80A76972AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYPeopleFeedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FFF4A7924A5000000AB35A2 /* Sources */ = {
@@ -437,9 +586,11 @@
 		};
 		2FFF4AAD24A5000200AB35A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D603702BFB5A3A772402F0 /* Pods-NYPeopleFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJJJ25GZT2;
 				INFOPLIST_FILE = NYPeopleFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +604,11 @@
 		};
 		2FFF4AAE24A5000200AB35A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A72ED39FC3D0D486D14194 /* Pods-NYPeopleFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJJJ25GZT2;
 				INFOPLIST_FILE = NYPeopleFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +622,7 @@
 		};
 		2FFF4AB024A5000200AB35A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7D93598B4D47B7B699AECD /* Pods-NYPeopleFeedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +642,7 @@
 		};
 		2FFF4AB124A5000200AB35A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D43687A1A71BDF97B264D3A /* Pods-NYPeopleFeedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +662,7 @@
 		};
 		2FFF4AB324A5000200AB35A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0847BD8C07EB60F2863FEEEF /* Pods-NYPeopleFeed-NYPeopleFeedUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NYPeopleFeedUITests/Info.plist;
@@ -524,6 +680,7 @@
 		};
 		2FFF4AB424A5000200AB35A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52CF4533823D0A27D3C6DC5 /* Pods-NYPeopleFeed-NYPeopleFeedUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NYPeopleFeedUITests/Info.plist;
