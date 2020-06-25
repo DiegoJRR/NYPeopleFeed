@@ -1,22 +1,22 @@
 # Project 2 - *NYPeopleFeed*
 
 **NYPeopleFeed** is an image feed app showing the photos in NYPeople Tumblr posts.
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-- [ ] User can see the feed of images being pulled from Tumblr in a TableView scrollable section
+- [ x ] User can see the feed of images being pulled from Tumblr in a TableView scrollable section
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/lImotKeI94.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](http://g.recordit.co).
 
 ## Notes
 
