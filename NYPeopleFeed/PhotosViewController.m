@@ -7,10 +7,12 @@
 //
 
 #import "PhotosViewController.h"
+#import "PhotoCell.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface PhotosViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) NSArray *posts;
-@property (weak, nonatomic) IBOutlet UITableView *photosTableView;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
 
 @implementation PhotosViewController
@@ -39,6 +41,8 @@
                } else {
                    NSLog(@"%@", dataDictionary[@"status"]);
                }
+               
+               [self.tableView reloadData];
            }
         
        }];
@@ -50,23 +54,42 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    // Congiruginr photosTableView dataSource and delegate to self
-    self.photosTableView.dataSource = self;
-    self.photosTableView.delegate = self;
+    // Congiruginr tableView dataSource and delegate to self
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     
     [self fetchPhotos];
+    self.tableView.rowHeight = 380;
+    
+    
 }
 
-- (NSInteger)tableView:(UITableView *)photosTableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.posts.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)photosTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [[UITableViewCell alloc] init];
-    cell.textLabel.text = [NSString stringWithFormat:@"This is row %ld", (long)indexPath.row];
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    // Set the cell to deque when not in view
+    PhotoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PhotoCell"];
+    
+    // Load post info corresponding to the post at indexPath.row
+    NSDictionary *post = self.posts[indexPath.row];
+    
+    
+    // Get the image from the corresponding post and load it with AFNetworking
+    if (post[@"photos"]){
+        NSURL *photoURL = [NSURL URLWithString:post[@"photos"][0][@"original_size"][@"url"]];
+        
+        cell.photoView.image = nil;
+        [cell.photoView setImageWithURL:photoURL];
+    }
+
     
     return cell;
 }
+
 
 /*
 #pragma mark - Navigation
