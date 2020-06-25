@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2FFF4A8224A5000100AB35A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8124A5000100AB35A2 /* AppDelegate.m */; };
 		2FFF4A8524A5000100AB35A2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8424A5000100AB35A2 /* SceneDelegate.m */; };
-		2FFF4A8824A5000100AB35A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8724A5000100AB35A2 /* ViewController.m */; };
 		2FFF4A8B24A5000100AB35A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8924A5000100AB35A2 /* Main.storyboard */; };
 		2FFF4A8D24A5000200AB35A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8C24A5000200AB35A2 /* Assets.xcassets */; };
 		2FFF4A9024A5000200AB35A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFF4A8E24A5000200AB35A2 /* LaunchScreen.storyboard */; };
 		2FFF4A9324A5000200AB35A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A9224A5000200AB35A2 /* main.m */; };
 		2FFF4A9D24A5000200AB35A2 /* NYPeopleFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4A9C24A5000200AB35A2 /* NYPeopleFeedTests.m */; };
 		2FFF4AA824A5000200AB35A2 /* NYPeopleFeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4AA724A5000200AB35A2 /* NYPeopleFeedUITests.m */; };
+		2FFF4AB724A5040F00AB35A2 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4AB624A5040F00AB35A2 /* PhotosViewController.m */; };
+		2FFF4ABA24A50B6300AB35A2 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF4AB924A50B6300AB35A2 /* PhotoCell.m */; };
 		5CE8D1BF1870940E621E3427 /* Pods_NYPeopleFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5F47AB75D5123BE2B641C5 /* Pods_NYPeopleFeed.framework */; };
 		A52EA09C1F68E3C370A1B42B /* Pods_NYPeopleFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0B6AB91C3F66E900189E6D /* Pods_NYPeopleFeedTests.framework */; };
 		EA26634F415D02995AD41AC7 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A36522B7F10C37D529046 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework */; };
@@ -45,8 +46,6 @@
 		2FFF4A8124A5000100AB35A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2FFF4A8324A5000100AB35A2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2FFF4A8424A5000100AB35A2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2FFF4A8624A5000100AB35A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2FFF4A8724A5000100AB35A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2FFF4A8A24A5000100AB35A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FFF4A8C24A5000200AB35A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFF4A8F24A5000200AB35A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,10 @@
 		2FFF4AA324A5000200AB35A2 /* NYPeopleFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYPeopleFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFF4AA724A5000200AB35A2 /* NYPeopleFeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPeopleFeedUITests.m; sourceTree = "<group>"; };
 		2FFF4AA924A5000200AB35A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFF4AB524A5040F00AB35A2 /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		2FFF4AB624A5040F00AB35A2 /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		2FFF4AB824A50B6300AB35A2 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		2FFF4AB924A50B6300AB35A2 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 		39D603702BFB5A3A772402F0 /* Pods-NYPeopleFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeed.debug.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeed/Pods-NYPeopleFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		3B1A36522B7F10C37D529046 /* Pods_NYPeopleFeed_NYPeopleFeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYPeopleFeed_NYPeopleFeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D43687A1A71BDF97B264D3A /* Pods-NYPeopleFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYPeopleFeedTests.release.xcconfig"; path = "Target Support Files/Pods-NYPeopleFeedTests/Pods-NYPeopleFeedTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,13 +138,15 @@
 				2FFF4A8124A5000100AB35A2 /* AppDelegate.m */,
 				2FFF4A8324A5000100AB35A2 /* SceneDelegate.h */,
 				2FFF4A8424A5000100AB35A2 /* SceneDelegate.m */,
-				2FFF4A8624A5000100AB35A2 /* ViewController.h */,
-				2FFF4A8724A5000100AB35A2 /* ViewController.m */,
 				2FFF4A8924A5000100AB35A2 /* Main.storyboard */,
 				2FFF4A8C24A5000200AB35A2 /* Assets.xcassets */,
 				2FFF4A8E24A5000200AB35A2 /* LaunchScreen.storyboard */,
 				2FFF4A9124A5000200AB35A2 /* Info.plist */,
 				2FFF4A9224A5000200AB35A2 /* main.m */,
+				2FFF4AB524A5040F00AB35A2 /* PhotosViewController.h */,
+				2FFF4AB624A5040F00AB35A2 /* PhotosViewController.m */,
+				2FFF4AB824A50B6300AB35A2 /* PhotoCell.h */,
+				2FFF4AB924A50B6300AB35A2 /* PhotoCell.m */,
 			);
 			path = NYPeopleFeed;
 			sourceTree = "<group>";
@@ -174,7 +179,6 @@
 				9A7D93598B4D47B7B699AECD /* Pods-NYPeopleFeedTests.debug.xcconfig */,
 				6D43687A1A71BDF97B264D3A /* Pods-NYPeopleFeedTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -416,8 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FFF4A8824A5000100AB35A2 /* ViewController.m in Sources */,
 				2FFF4A8224A5000100AB35A2 /* AppDelegate.m in Sources */,
+				2FFF4ABA24A50B6300AB35A2 /* PhotoCell.m in Sources */,
+				2FFF4AB724A5040F00AB35A2 /* PhotosViewController.m in Sources */,
 				2FFF4A9324A5000200AB35A2 /* main.m in Sources */,
 				2FFF4A8524A5000100AB35A2 /* SceneDelegate.m in Sources */,
 			);
